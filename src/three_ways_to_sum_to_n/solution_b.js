@@ -9,6 +9,7 @@ var sum_to_n = function(n) {
         var index = 0;
         while(index < n){
             sum += index;
+            index += 1;
         }
     }
 };
