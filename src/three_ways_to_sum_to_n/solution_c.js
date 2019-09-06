@@ -4,5 +4,10 @@
 // Output: `return` - summation to `n`, i.e. sum_to_n(5) === 1 + 2 + 3 + 4 + 5 === 15.
 
 var sum_to_n = function(n) {
-    // your code here
+    var sum = 0;
+    var index = 0;
+    do{
+        sum += index;
+        index += 1;
+      }while(index < n);
 };
